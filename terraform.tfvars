@@ -1,4 +1,4 @@
-instance_name = "test-instance-1"
+instance_name = "test-instance-2"
 instance_machine_type = "n1-standard-2"
 instance_zone = "us-central1-a"
 instance_image = "centos-cloud/centos-7-v20200309"
