@@ -24,7 +24,7 @@ resource "google_compute_instance" "main" {
 }
 
 resource "google_compute_firewall" "default" {
-  name    = "allow-jenkins"
+  name    = "allow-jenkins-new"
   network = "default"
   source_ranges = var.source_ranges
   allow {
