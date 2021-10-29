@@ -1,9 +1,9 @@
 instance_name = "test-instance"
 instance_machine_type = "n1-standard-2"
-instance_zone = "us-west1-b"
+instance_zone = "us-central1-b"
 instance_image = "centos-cloud/centos-7-v20200309"
 project     = "my-project-terraform-329615"
-region      = "us-west1"
+region      = "us-central1"
 subnet_name = "default"
 external_enabled = true
 source_ranges = ["10.138.0.0/20","10.140.0.0/20"]
