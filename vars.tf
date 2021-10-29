@@ -1,6 +1,6 @@
 // instance.tf variables
 variable "instance_name" {}
-variable "node_count" {default = "2"}
+variable "node_count" {}
 variable "instance_machine_type" {}
 variable "instance_zone" {}
 variable "instance_image" {}
