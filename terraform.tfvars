@@ -6,5 +6,5 @@ project     = "my-project-terraform-329615"
 region      = "us-central1"
 subnet_name = "default"
 external_enabled = true
-source_ranges = ["10.128.0.0/20","10.132.0.0/20"]
+source_ranges = ["10.138.0.0/20","10.140.0.0/20"]
 startup_script = "yum install -y git"
