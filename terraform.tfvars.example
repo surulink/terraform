@@ -1,10 +1,10 @@
-instance_name = "test-instance"
-instance_machine_type = "n1-standard-2"
+instance_name = "<name_instance>"
+instance_machine_type = "<machine_type>"
 instance_zone = "<your_zone>"
-instance_image = "centos-cloud/centos-7-v20200309"
+instance_image = "<os_type>"
 project     = "<your_project_id>"
 region      = "<your_region>"
 subnet_name = "default"
 external_enabled = true
 source_ranges = ["IP_1","IP_2"]
-startup_script = "yum install -y git"
+startup_script = "<startup_script>"
